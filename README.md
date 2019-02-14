@@ -1,5 +1,6 @@
-# SVG
+Old programming project
 
+# SVG
 Dieses Projekt erstellt aus den gegebenen Daten einen Graphen. Die Node-Positionen können beim Erstellen des Graphen angegeben werden. Das Projekt legt besonderen Wert auf Anpassbarkeit und verwendet dazu SVG und CSS.
 
 #### Requirements
