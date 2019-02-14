@@ -1,0 +1,109 @@
+*{
+    background-color: #3a373e;
+}
+
+text{
+    fill: #f4f0e5;
+}
+
+line {
+    stroke: #dddcda;
+    stroke-width: 1px;
+}
+
+line.killed {
+    stroke: #000000;
+    stroke-width: 1px;
+}
+
+line.lover {
+    stroke: #c51400;
+    stroke-width: 1px;
+}
+
+line.spouse {
+    stroke: #6388a9;
+    stroke-width: 1px;
+}
+
+path {
+    stroke: #dddcda;
+    stroke-width: 2px;
+    fill-opacity: 1.0;
+    fill: transparent;
+}
+
+path.killed {
+    stroke: #000000;
+    fill-opacity: 1.0;
+}
+
+path.allegiance {
+    stroke: #1a1aff;
+    fill-opacity: 0.8;
+}
+
+path.lover {
+    stroke: #c51400;
+    fill-opacity: 1.0;
+}
+
+path.spouse {
+    stroke: #6388a9;
+    fill-opacity: 1.0;
+}
+
+path.sibling {
+    stroke: lime;
+    stroke-opacity: 0.5;
+    stroke-dasharray: 5, 10, 5;
+}
+
+path.father {
+    stroke: lime;
+    stroke-opacity: 0.5;
+    stroke-dasharray: 5, 10, 5;
+}
+
+path.mother {
+    stroke: lime;
+    stroke-opacity: 0.5;
+    stroke-dasharray: 5, 10, 5;
+}
+
+path.HiRel {
+    stroke-width: 4px;
+}
+
+#death {
+    /*stroke: #7f7f88;*/
+    stroke: black;
+}
+
+/*
+.marker {
+    stroke-width: 1px;
+    fill-opacity: 0.8;
+    fill: black;
+}
+*/
+
+marker,
+marker path {
+    stroke: #a6a8a1;
+    stroke-width: 2px;
+    fill-opacity: 0.5;
+    fill: black;
+}
+
+/*
+Relation classes:
+    killed      - getötet
+    sibling     - Geschwister
+    father      - Vater
+    mother      - Mutter
+    lover       - Lover
+    spouse      - Ehegatte
+    allegiance  - Loyalität
+
+*/
